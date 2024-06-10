@@ -1,0 +1,28 @@
+.element-badge {
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5rem;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+.element-badge.status-new {
+	background: #C8E6C9;
+	color: #256029;
+}
+
+.element-badge.status-reserved {
+	background: #FFCDD2;
+	color: #C63737;
+}
+
+.element-badge.status-bought {
+	background: #FEEDAF;
+	color: #8A5340;
+}
+
+.element-badge.status-given {
+	background: lightblue;
+	color: darkblue;
+}
+

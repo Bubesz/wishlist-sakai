@@ -21,6 +21,16 @@ export class AppMenuComponent implements OnInit {
                 ]
             },
             {
+                label: 'Wishlist app',
+                items: [
+                    {
+                    label: 'Wishlist',
+                    icon: 'pi pi-fw pi-circle-off',
+                    routerLink: ['/pages/wishlist']
+                    }
+                ]
+            },
+            {
                 label: 'UI Components',
                 items: [
                     { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
